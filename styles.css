@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(180deg, hsla(0, 7%, 76%, 0.37) 0%, hsla(0, 0%, 0%, 0.826) 50%), url("/assets/img/pexels-goumbik-296234.jpg") ;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  height: auto;
+  width: 100wh;
+  
+}
+
+.container-sol{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-temperature{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: solid white 1px;
+    
+    
+}
+
+
+.lastSection{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+
+}
+
+.container-weather{
+    display: flex;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-moon{
+    display: flex;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.center-justify {
+    justify-self: center;
+}
+
+
+
+.yellow{
+    color:yellow;
+}
+
+.grades{
+    color:white;
+     font-size: 80px;
+}
+
+.cf {
+    font-size: 50px;
+}
+
+.conditions{
+    color: gray;
+}
+
+.white{
+    color: white;
+}
+
+.location{
+    font-size: 24px;
+}
+
+.bar-n{
+font-size: 32px;
+}
+
+.forcast{
+    width:50vw ;
+    height: 50vh;
+    border-right: solid white 1px ;
+
+}
+
+.moonFase{
+    width:50vw ;
+    height: 50vh;
+    margin-left: 20px;
+   
+}
